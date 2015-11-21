@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA85651B1C00225A009EF06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85651A1C00225A009EF06A /* AppDelegate.swift */; };
+		FA85651D1C00225A009EF06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85651C1C00225A009EF06A /* ViewController.swift */; };
+		FA8565201C00225A009EF06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA85651E1C00225A009EF06A /* Main.storyboard */; };
+		FA8565221C00225A009EF06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8565211C00225A009EF06A /* Assets.xcassets */; };
+		FA8565251C00225A009EF06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8565231C00225A009EF06A /* LaunchScreen.storyboard */; };
+		FA8565301C00225A009EF06A /* AA_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85652F1C00225A009EF06A /* AA_MessengerTests.swift */; };
+		FA85653B1C00225A009EF06A /* AA_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85653A1C00225A009EF06A /* AA_MessengerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA85652C1C00225A009EF06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA85650F1C00225A009EF06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8565161C00225A009EF06A;
+			remoteInfo = "AA Messenger";
+		};
+		FA8565371C00225A009EF06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA85650F1C00225A009EF06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8565161C00225A009EF06A;
+			remoteInfo = "AA Messenger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA8565171C00225A009EF06A /* AA Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AA Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85651A1C00225A009EF06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA85651C1C00225A009EF06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA85651F1C00225A009EF06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA8565211C00225A009EF06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8565241C00225A009EF06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8565261C00225A009EF06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA85652B1C00225A009EF06A /* AA MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AA MessengerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85652F1C00225A009EF06A /* AA_MessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA_MessengerTests.swift; sourceTree = "<group>"; };
+		FA8565311C00225A009EF06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8565361C00225A009EF06A /* AA MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AA MessengerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85653A1C00225A009EF06A /* AA_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AA_MessengerUITests.swift; sourceTree = "<group>"; };
+		FA85653C1C00225A009EF06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8565141C00225A009EF06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8565281C00225A009EF06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8565331C00225A009EF06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA85650E1C00225A009EF06A = {
+			isa = PBXGroup;
+			children = (
+				FA8565191C00225A009EF06A /* AA Messenger */,
+				FA85652E1C00225A009EF06A /* AA MessengerTests */,
+				FA8565391C00225A009EF06A /* AA MessengerUITests */,
+				FA8565181C00225A009EF06A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8565181C00225A009EF06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8565171C00225A009EF06A /* AA Messenger.app */,
+				FA85652B1C00225A009EF06A /* AA MessengerTests.xctest */,
+				FA8565361C00225A009EF06A /* AA MessengerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8565191C00225A009EF06A /* AA Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				FA85651A1C00225A009EF06A /* AppDelegate.swift */,
+				FA85651C1C00225A009EF06A /* ViewController.swift */,
+				FA85651E1C00225A009EF06A /* Main.storyboard */,
+				FA8565211C00225A009EF06A /* Assets.xcassets */,
+				FA8565231C00225A009EF06A /* LaunchScreen.storyboard */,
+				FA8565261C00225A009EF06A /* Info.plist */,
+			);
+			path = "AA Messenger";
+			sourceTree = "<group>";
+		};
+		FA85652E1C00225A009EF06A /* AA MessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA85652F1C00225A009EF06A /* AA_MessengerTests.swift */,
+				FA8565311C00225A009EF06A /* Info.plist */,
+			);
+			path = "AA MessengerTests";
+			sourceTree = "<group>";
+		};
+		FA8565391C00225A009EF06A /* AA MessengerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA85653A1C00225A009EF06A /* AA_MessengerUITests.swift */,
+				FA85653C1C00225A009EF06A /* Info.plist */,
+			);
+			path = "AA MessengerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8565161C00225A009EF06A /* AA Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA85653F1C00225A009EF06A /* Build configuration list for PBXNativeTarget "AA Messenger" */;
+			buildPhases = (
+				FA8565131C00225A009EF06A /* Sources */,
+				FA8565141C00225A009EF06A /* Frameworks */,
+				FA8565151C00225A009EF06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AA Messenger";
+			productName = "AA Messenger";
+			productReference = FA8565171C00225A009EF06A /* AA Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA85652A1C00225A009EF06A /* AA MessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8565421C00225A009EF06A /* Build configuration list for PBXNativeTarget "AA MessengerTests" */;
+			buildPhases = (
+				FA8565271C00225A009EF06A /* Sources */,
+				FA8565281C00225A009EF06A /* Frameworks */,
+				FA8565291C00225A009EF06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA85652D1C00225A009EF06A /* PBXTargetDependency */,
+			);
+			name = "AA MessengerTests";
+			productName = "AA MessengerTests";
+			productReference = FA85652B1C00225A009EF06A /* AA MessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA8565351C00225A009EF06A /* AA MessengerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8565451C00225A009EF06A /* Build configuration list for PBXNativeTarget "AA MessengerUITests" */;
+			buildPhases = (
+				FA8565321C00225A009EF06A /* Sources */,
+				FA8565331C00225A009EF06A /* Frameworks */,
+				FA8565341C00225A009EF06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8565381C00225A009EF06A /* PBXTargetDependency */,
+			);
+			name = "AA MessengerUITests";
+			productName = "AA MessengerUITests";
+			productReference = FA8565361C00225A009EF06A /* AA MessengerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA85650F1C00225A009EF06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nooshin Samadi";
+				TargetAttributes = {
+					FA8565161C00225A009EF06A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FA85652A1C00225A009EF06A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FA8565161C00225A009EF06A;
+					};
+					FA8565351C00225A009EF06A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FA8565161C00225A009EF06A;
+					};
+				};
+			};
+			buildConfigurationList = FA8565121C00225A009EF06A /* Build configuration list for PBXProject "AA Messenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA85650E1C00225A009EF06A;
+			productRefGroup = FA8565181C00225A009EF06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8565161C00225A009EF06A /* AA Messenger */,
+				FA85652A1C00225A009EF06A /* AA MessengerTests */,
+				FA8565351C00225A009EF06A /* AA MessengerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8565151C00225A009EF06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8565251C00225A009EF06A /* LaunchScreen.storyboard in Resources */,
+				FA8565221C00225A009EF06A /* Assets.xcassets in Resources */,
+				FA8565201C00225A009EF06A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8565291C00225A009EF06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8565341C00225A009EF06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8565131C00225A009EF06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA85651D1C00225A009EF06A /* ViewController.swift in Sources */,
+				FA85651B1C00225A009EF06A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8565271C00225A009EF06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8565301C00225A009EF06A /* AA_MessengerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8565321C00225A009EF06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA85653B1C00225A009EF06A /* AA_MessengerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA85652D1C00225A009EF06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8565161C00225A009EF06A /* AA Messenger */;
+			targetProxy = FA85652C1C00225A009EF06A /* PBXContainerItemProxy */;
+		};
+		FA8565381C00225A009EF06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8565161C00225A009EF06A /* AA Messenger */;
+			targetProxy = FA8565371C00225A009EF06A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA85651E1C00225A009EF06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA85651F1C00225A009EF06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8565231C00225A009EF06A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8565241C00225A009EF06A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA85653D1C00225A009EF06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA85653E1C00225A009EF06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8565401C00225A009EF06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AA Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nooshin-Samadi.AA-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA8565411C00225A009EF06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AA Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nooshin-Samadi.AA-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA8565431C00225A009EF06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AA MessengerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nooshin-Samadi.AA-MessengerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AA Messenger.app/AA Messenger";
+			};
+			name = Debug;
+		};
+		FA8565441C00225A009EF06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AA MessengerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nooshin-Samadi.AA-MessengerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AA Messenger.app/AA Messenger";
+			};
+			name = Release;
+		};
+		FA8565461C00225A009EF06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AA MessengerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nooshin-Samadi.AA-MessengerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AA Messenger";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA8565471C00225A009EF06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AA MessengerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nooshin-Samadi.AA-MessengerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AA Messenger";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8565121C00225A009EF06A /* Build configuration list for PBXProject "AA Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA85653D1C00225A009EF06A /* Debug */,
+				FA85653E1C00225A009EF06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA85653F1C00225A009EF06A /* Build configuration list for PBXNativeTarget "AA Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8565401C00225A009EF06A /* Debug */,
+				FA8565411C00225A009EF06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA8565421C00225A009EF06A /* Build configuration list for PBXNativeTarget "AA MessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8565431C00225A009EF06A /* Debug */,
+				FA8565441C00225A009EF06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA8565451C00225A009EF06A /* Build configuration list for PBXNativeTarget "AA MessengerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8565461C00225A009EF06A /* Debug */,
+				FA8565471C00225A009EF06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA85650F1C00225A009EF06A /* Project object */;
+}
